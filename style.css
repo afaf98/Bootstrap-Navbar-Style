@@ -11,7 +11,7 @@ body {
 /* Navbar boxes */
 
 .Navbar {
-  height: 11vh;
+  height: 7vh;
   background-color: #563d7c;
   display: flex;
   flex-direction: row;
@@ -20,11 +20,19 @@ body {
 
 .Navbar-right {
   width: 30vw;
+  color: #cbbde2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Navbar-right i {
+  margin-right: 1rem;
 }
 
 .Navbar-left-logo {
   width: 33px;
-  height: 5vh;
+  height: 60%;
   margin-left: 6px;
 }
 
