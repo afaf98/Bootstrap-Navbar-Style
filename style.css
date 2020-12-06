@@ -8,7 +8,20 @@ body {
   margin: 0;
 }
 
-.Navabar {
+/* Navbar boxes */
+
+.Navbar {
   height: 7vh;
   background-color: #563d7c;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.Navbar-right {
+  width: 30vw;
+}
+
+.Navbar-left {
+  width: 70vw;
 }
