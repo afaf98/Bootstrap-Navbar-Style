@@ -1,0 +1,14 @@
+/* To check the dispositions of the borders */
+* {
+  border: 1px red solid;
+}
+
+/* Reset */
+body {
+  margin: 0;
+}
+
+.Navabar {
+  height: 7vh;
+  background-color: #563d7c;
+}
